@@ -9,7 +9,7 @@ body {
 }
 
 .Map {
-  background: url(/images/terrain.jpg);
+  background: url(images/terrain.jpg);
   border: 10px solid #022 ;
   position: relative;
   margin: 100px auto;
@@ -34,11 +34,11 @@ body {
   width: 60px;
   height: 60px;
   background: transparent;
-  background-image: url(/images/robot.gif);
+  background-image: url(images/robot.gif);
 }
 
 .Robot.human .sprite {
-  background-image:   url(/images/professor.png);
+  background-image: url(images/professor.png);
 }
 
 
@@ -54,7 +54,7 @@ body {
 
 .Walls .block {
   position: absolute;
-  background: url(/images/wall.jpg);
+  background: url(images/wall.jpg);
   font-size: 10px;
   color: #f00;
   text-align: center;

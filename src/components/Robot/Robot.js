@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ObstacleChecker from './ObstacleChecker';
+import professor from '../../images/professor.png';
 
-
+console.log( professor );
 
 class Robot extends Component {
     
